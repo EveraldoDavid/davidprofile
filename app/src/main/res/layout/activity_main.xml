@@ -55,7 +55,7 @@
                 android:id="@+id/tv_heart"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Followers"
+                android:text="@string/followers"
                 android:textStyle="bold"
                 android:drawableLeft="@drawable/ic_favorite_black_24dp"
                 android:drawablePadding="20dp"
@@ -72,13 +72,14 @@
                 android:layout_marginTop="40dp"
                 android:textStyle="bold"/>
 
-            <view
+            <TableRow
+                android:id="@+id/hr"
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="1dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="1dp"
-                android:background="@android:color/background_dark"/>
+                android:background="#444"></TableRow>
 
 
         </RelativeLayout>
@@ -90,7 +91,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Followers lost"
+                android:text="@string/lost"
                 android:textStyle="bold"
                 android:drawableLeft="@drawable/ic_favorite_border_black_24dp"
                 android:drawablePadding="20dp"
@@ -107,13 +108,13 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <view
+            <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="1dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="1dp"
-                android:background="@android:color/background_dark"/>
+                android:background="#444"></TableRow>
 
 
         </RelativeLayout>
@@ -125,7 +126,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="block you"
+                android:text="@string/block"
                 android:textStyle="bold"
                 android:drawableLeft="@drawable/ic_block_black_24dp"
                 android:drawablePadding="20dp"
@@ -142,13 +143,13 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <view
+            <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="1dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="1dp"
-                android:background="@android:color/background_dark"/>
+                android:background="#444"></TableRow>
 
 
         </RelativeLayout>
@@ -160,7 +161,7 @@
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="screet admirer"
+                android:text="@string/screet"
                 android:textStyle="bold"
                 android:drawableLeft="@drawable/ic_people_black_24dp"
                 android:drawablePadding="20dp"
@@ -177,14 +178,13 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <view
+            <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="1dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="1dp"
-                android:background="@android:color/background_dark"/>
-
+                android:background="#444"></TableRow>
 
         </RelativeLayout>
 
